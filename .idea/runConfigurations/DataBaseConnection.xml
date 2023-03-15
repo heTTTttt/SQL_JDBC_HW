@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="DataBaseConnection" type="Application" factoryName="Application">
+    <envs>
+      <env name="MYSQL_PASSWORD" value="123321" />
+      <env name="MYSQL_USER" value="heT" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="SQL_JDBC_HW.Main" />
+    <module name="SQL_JDBC_HW" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
