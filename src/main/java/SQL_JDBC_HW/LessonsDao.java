@@ -8,11 +8,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LessonDao implements LessonsRepo {
-
-//    Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/SQL_HM_JDBC", "heT", "123321");
-
-    public LessonDao() throws SQLException {
+public class LessonsDao implements LessonsRepo {
+    public LessonsDao() throws SQLException {
     }
 
     @Override
