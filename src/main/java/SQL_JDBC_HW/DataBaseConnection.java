@@ -9,8 +9,8 @@ public class DataBaseConnection {
     // Змінні для зберігання інформації про з'єднання з БД
     private String url = "jdbc:mysql://localhost:3306/SQL_HM_JDBC";
     // намагався зробити через змінні оточення, але не вдалося чомусь.
-    private String username = "heT";
-    private String password = "123321";
+    private String username = System.getenv("MYSQL_USER");
+    private String password = System.getenv("MYSQL_PASSWORD");
 
     public DataBaseConnection() {
 
